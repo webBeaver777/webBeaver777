@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Резюме — Дмитрий Бобриков</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      padding: 40px 32px;
+    }
+    h1 {
+      font-size: 2.3em;
+      margin-bottom: 8px;
+      color: #0059c4;
+    }
+    h2 {
+      margin-top: 32px;
+      color: #0059c4;
+      letter-spacing: 1px;
+      font-size: 1.3em;
+    }
+    .contacts {
+      margin-bottom: 24px;
+      font-size: 1.08em;
+    }
+    .contacts span {
+      display: inline-block;
+      margin-right: 18px;
+      margin-bottom: 4px;
+    }
+    ul {
+      padding-left: 22px;
+      margin: 8px 0 16px 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .job {
+      margin-bottom: 20px;
+    }
+    .job-title {
+      font-weight: bold;
+      font-size: 1.07em;
+      color: #0059c4;
+    }
+    .job-dates {
+      color: #555;
+      font-size: 0.97em;
+      margin-bottom: 3px;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    .skills-block {
+      min-width: 220px;
+      flex: 1;
+    }
+    .lang-list {
+      margin-bottom: 10px;
+    }
+    .extra-list {
+      margin-bottom: 0;
+    }
+    @media (max-width:600px) {
+      .container { padding: 16px 6px; }
+      .skills-list { flex-direction: column; gap: 18px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📛 Дмитрий Бобриков</h1>
+    <p class="contacts">
+      <span>Fullstack Web Developer</span>
+      <span>📍 Da Nang, Vietnam</span>
+      <span>📧 <a href="mailto:dmitrii.bobrikov1988@gmail.com">dmitrii.bobrikov1988@gmail.com</a></span>
+      <span>🟦 Telegram: <a href="https://t.me/webBeaver" target="_blank">@webBeaver</a></span>
+    </p>
+    <h2>🔹 ПРОФИЛЬ</h2>
+    <p>
+      Fullstack-разработчик с уклоном в backend (Laravel + PHP), уверенным фронтом (Vue 3 + Tailwind) и опытом DevOps. 3+ года разработки, от MVP до production, работа с командами, фаундерами и заказчиками напрямую. Умею строить архитектуру, вести проекты, оптимизировать под задачи бизнеса. Самостоятельен, инициативен, умею доводить до результата.
+    </p>
+    <h2>🔹 ОПЫТ РАБОТЫ</h2>
+    <div class="job">
+      <div class="job-title">Alex Villas — Fullstack Developer</div>
+      <div class="job-dates">Янв 2025 — настоящее время | 🏝 Вьетнам</div>
+      <ul>
+        <li>Поддержка и развитие продукта для бронирования недвижимости</li>
+        <li>Laravel + Vue 3: личные кабинеты, формы, панель администратора</li>
+        <li>Настройка авторизации, уведомлений, интеграций (email, SMS)</li>
+        <li>Docker, CI/CD, конфигурация dev/stage/prod окружений</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">Lado (Meta-Force) — Backend Team Lead</div>
+      <div class="job-dates">Янв 2024 — Нояб 2024 | 🌍 Удалённо</div>
+      <ul>
+        <li>Ведение backend-команды (3+ dev), ревью, архитектура</li>
+        <li>Laravel, REST API, WebSockets, event-driven архитектура</li>
+        <li>CI/CD пайплайны, миграции, DevOps-сопровождение</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">Maxbitsolution — PHP Developer</div>
+      <div class="job-dates">Янв 2023 — Янв 2024 | 🌍 Удалённо</div>
+      <ul>
+        <li>Разработка CRM и внутренних систем</li>
+        <li>Laravel, Livewire, Vue 2/3, Tailwind, MySQL</li>
+        <li>Рефакторинг легаси, оптимизация SQL, архитектурные улучшения</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-title">Фриланс — Fullstack Developer</div>
+      <div class="job-dates">2023 — 2024 | 🧑‍💻 Самостоятельно</div>
+      <ul>
+        <li>Полный цикл: от идеи до продакшена</li>
+        <li>API-интеграции, авторизация, работа без PM</li>
+        <li>Улучшение UX, работа с отзывами клиентов напрямую</li>
+      </ul>
+    </div>
+    <h2>🔹 СТЕК / НАВЫКИ</h2>
+    <div class="skills-list">
+      <div class="skills-block">
+        <b>Backend (Laravel, PHP)</b>
+        <ul>
+          <li>Eloquent, FormRequest, middleware, API Resources</li>
+          <li>REST API, слоистая архитектура, DTO/Service/Action</li>
+          <li>Очереди (Horizon), кэш, события, webhooks</li>
+          <li>Оптимизация SQL, миграции, индексация</li>
+        </ul>
+      </div>
+      <div class="skills-block">
+        <b>Frontend (Vue 3, Tailwind)</b>
+        <ul>
+          <li>Composition API, Pinia, Vue Router, SPA</li>
+          <li>UI-компоненты, формы, модалки, drag-n-drop</li>
+          <li>Axios, REST-интеграции, адаптив</li>
+          <li>Lazy loading, UX-оптимизация</li>
+        </ul>
+      </div>
+      <div class="skills-block">
+        <b>DevOps / Tools</b>
+        <ul>
+          <li>Docker, docker-compose, настройка окружений</li>
+          <li>CI/CD: GitHub Actions, GitLab CI</li>
+          <li>Linux (Ubuntu/Debian): systemd, cron, логирование</li>
+          <li>nginx, SSL, LetsEncrypt, fail2ban, домены</li>
+        </ul>
+      </div>
+      <div class="skills-block">
+        <b>Софт и подход</b>
+        <ul>
+          <li>Без посредников: работа с заказчиком напрямую</li>
+          <li>Архитектура, бизнес-цели, гибкость решений</li>
+          <li>Отладка, устранение узких мест, техинициатива</li>
+          <li>Ответственность, дедлайны, масштабируемость</li>
+        </ul>
+      </div>
+    </div>
+    <h2>🔹 ОБРАЗОВАНИЕ</h2>
+    <ul>
+      <li>🎓 Высшее техническое</li>
+      <li>🎓 Laravel/Vue/DevOps — практика + самообучение</li>
+    </ul>
+    <h2>🔹 ЯЗЫКИ</h2>
+    <ul class="lang-list">
+      <li>🇷🇺 Русский — родной</li>
+      <li>🇬🇧 Английский — уверенный технический, улучшаю разговорный</li>
+    </ul>
+    <h2>🔹 ДОПОЛНИТЕЛЬНО</h2>
+    <ul class="extra-list">
+      <li>Код и проекты — по запросу</li>
+      <li>Интересует продуктовая разработка с гибкой культурой</li>
+      <li>Поддержка после релиза — часть работы, не проблема</li>
+    </ul>
+  </div>
+</body>
+</html>
