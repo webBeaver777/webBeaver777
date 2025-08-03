@@ -1,4 +1,4 @@
-# 📛 Дмитрий Бобриков — Fullstack Web Developer
+# 🛠️ Дмитрий Бобриков — Fullstack Web Developer
 
 ---
 
